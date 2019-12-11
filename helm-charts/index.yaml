@@ -8,6 +8,6 @@ entries:
     digest: 101c3a2533e3c95490719d644032322a032332f90d00791cb0a9b95188d950fd
     name: terraform-example
     urls:
-    - https://www.colgworld.com/terraform-example-0.1.0.tgz
+    - https://www.colgworld.com/helm-charts/terraform-example-0.1.0.tgz
     version: 0.1.0
 generated: "2019-12-10T21:57:18.559191-05:00"
