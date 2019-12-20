@@ -14,10 +14,10 @@ fullnameOverride: "terraform-example"
 
 serviceAccount:
   # Specifies whether a service account should be created
-  create: false
+  create: true
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
-  name:
+  name: colgworld
 
 podSecurityContext: {}
   # fsGroup: 2000
@@ -31,7 +31,7 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 8080
 
 ingress:
