@@ -25,6 +25,7 @@ securityContext: {}
   # runAsUser: 1000
 service:
   type: ClusterIP
+  name: terraform-example
   port: 8080
 
 ingress:
