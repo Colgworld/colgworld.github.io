@@ -32,6 +32,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
+  name: cluster
   port: 8080
 
 rbac:
@@ -46,7 +47,7 @@ ingress:
   hosts:
     - host: kube.colgworld.com
       paths: 
-        service_name: terraform-example
+        service_name: cluster
         service_port: 8080
       
  # tls: 
