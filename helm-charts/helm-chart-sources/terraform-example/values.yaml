@@ -25,6 +25,7 @@ securityContext: {}
   # runAsUser: 1000
 service:
   type: ClusterIP
+  name: simply-cluster
   port: 8080
 
 ingress:
