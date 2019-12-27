@@ -28,12 +28,13 @@ service:
   port: 8080
 
 ingress:
-  enabled: true
-  annotations:
-    kubernetes.io/ingress.class: nginx
+  enabled: false
+  annotations: {}
+    # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
+  paths: []
   hosts:
-    - host: kube.colgworld.com
+    - kube.colgworld.com
 
   tls: []
   #  - secretName: chart-example-tls
